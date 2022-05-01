@@ -61,18 +61,6 @@ public class IntegrationTests
         Assert.Equal("1", leden.LidId);
     }
 
-    // [Fact]
-    // public async Task Should_Return_Leden_By_TakId(){
-    //     var application = Helper.CreateApi();
-    //     var client = application.CreateClient();
-    // }
-
-    // [Fact]
-    // public async Task Should_Return_Leden_By_GroepId(){
-    //     var application = Helper.CreateApi();
-    //     var client = application.CreateClient();
-    // }
-
     [Fact]
     public async Task should_Return_Tak_By_Id(){
         var application = Helper.CreateApi();
